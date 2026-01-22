@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" mainViewID="85E9E9E5-3152-4223-867E-2BCAABC97E79">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:27:04 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Delivery_Company_FK" directorySegmentName="seg_0" id="4A1D4FB8-6799-5AC4-3330-59EEF5050ACE">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>BD194F5A-8D1B-C3EA-2567-BD1626E8DF0B</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<sourcePk>F7A5610B-2E53-DF89-C71B-9780A5DAA82E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>52054759-A608-891B-5EB2-1B380E4FB669</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B78650B8-28C5-8D45-1EA8-0F5E6BC9591C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

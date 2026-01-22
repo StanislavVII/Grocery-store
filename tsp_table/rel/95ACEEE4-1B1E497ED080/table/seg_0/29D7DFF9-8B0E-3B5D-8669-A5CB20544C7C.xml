@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29D7DFF9-8B0E-3B5D-8669-A5CB20544C7C" name="Company">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:41 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CompanyID" id="9498729B-8F34-A284-6710-289CA414B7B4">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:53:14 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ComName" id="0773391D-8FC3-189B-A98B-9E888873F38A">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:53:14 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ComAddress" id="0B577CD2-AB2A-D276-53E9-A62E6EF891FD">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:53:14 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ComPhone" id="3BDC703C-BEB2-F764-54DA-12D49B94A4A6">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:53:14 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ComRepName" id="8991D263-17CD-5A3B-0422-3F643D290262">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:53:14 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3026F2A-A899-3EDD-96CC-62E0347C60C7" name="Company_PK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:53:14 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9498729B-8F34-A284-6710-289CA414B7B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

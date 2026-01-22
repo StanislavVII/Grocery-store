@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAF1C01C-552A-B710-B7C2-493095E79F12" name="Delivery">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:41:20 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DeliveryID" id="8AD54AC1-522E-DE8B-CC58-454963B87434">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:30 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductID" id="4845A9AC-CDED-14FC-3F18-2A2D2EC73B85">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:30 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EE9BD1BA-A47A-CF03-7285-354C4AE0962F" referredColumn="04477212-210F-021B-69C6-159E1B59549C"/>
+</associations>
+</Column>
+<Column name="CompanyID" id="892BDA06-E4DE-05B4-C310-5A8D8B550022">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:30 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD194F5A-8D1B-C3EA-2567-BD1626E8DF0B" referredColumn="9498729B-8F34-A284-6710-289CA414B7B4"/>
+</associations>
+</Column>
+<Column name="DelNumber" id="07DEAAC0-F434-BCAD-3DB8-49D01C177936">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:30 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DelDate" id="6F2220B8-676C-A44D-ABF0-7BC91A4EAF16">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:30 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DelQuantity" id="B42BEB6E-A0D1-50BD-5704-B9E0BA11CAD6">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:30 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD421B36-047D-E7AB-3D33-834A6F6669A1" name="Delivery_PK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:48:30 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8AD54AC1-522E-DE8B-CC58-454963B87434"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B4B9FD4-A05B-FFB6-193A-9A53A5CF3916" name="Delivery_Product_FK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:54:13 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4845A9AC-CDED-14FC-3F18-2A2D2EC73B85"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E7E438C9-943E-9208-E543-E362E58C60C9" name="Delivery_Company_FK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:54:55 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="892BDA06-E4DE-05B4-C310-5A8D8B550022"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF832AD3-BADA-22A6-3516-00451FF39063" name="Product">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>AAE849D1-30F6-B647-AEC4-B3FC6F08453D</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ProductID" id="CD12DD04-1010-69EE-B5B7-9225CB00E681">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>04477212-210F-021B-69C6-159E1B59549C</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrCode" id="63DD27B2-2CB1-981B-7011-880B8F4FF668">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>4FFDE166-739C-03D5-26B1-6E6EA8E356AA</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PrName" id="F4B9064A-A901-C2F0-DA89-57974639B0D6">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>15A988D8-A03F-C790-18D9-6D6EBF90E8A3</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ExpDate" id="8FB13B2C-CB6C-52A0-988B-AF888E1853DA">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>FBE1D7C3-41B4-3689-934A-B12675F285EC</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Price" id="73D5DFB6-EA3B-FA3A-D699-4987D9C9212E">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>ABC9C3E3-F037-B046-5FBE-843C8E76EB76</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,2,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Quantity" id="0E4908BD-DF8B-42CA-32C2-9F0608F86178">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>CD36034C-4B4D-324F-C868-45F91860AF6A</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="654618BA-9933-2F5D-7014-EED24682FD47" name="Product PK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>D54EC971-406E-9AC6-F197-842860AFD55B</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD12DD04-1010-69EE-B5B7-9225CB00E681</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

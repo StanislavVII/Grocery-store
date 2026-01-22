@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AAE849D1-30F6-B647-AEC4-B3FC6F08453D" name="Product">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:31:17 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ProductID" id="04477212-210F-021B-69C6-159E1B59549C">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:40:37 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrCode" id="4FFDE166-739C-03D5-26B1-6E6EA8E356AA">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:40:37 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrName" id="15A988D8-A03F-C790-18D9-6D6EBF90E8A3">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:40:37 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ExpDate" id="FBE1D7C3-41B4-3689-934A-B12675F285EC">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:40:37 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Price" id="ABC9C3E3-F037-B046-5FBE-843C8E76EB76">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:40:37 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,2,4</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Quantity" id="CD36034C-4B4D-324F-C868-45F91860AF6A">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:40:37 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D54EC971-406E-9AC6-F197-842860AFD55B" name="Product_PK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:40:37 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04477212-210F-021B-69C6-159E1B59549C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

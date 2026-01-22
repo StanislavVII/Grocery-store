@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sold_Product_FK" directorySegmentName="seg_0" id="B48FB8E1-93E9-38A9-9570-EFAB638DE3C0">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-30 23:28:09 UTC</createdTime>
+<generatorID>B7F15C44-E38E-B926-8119-263E4878FA96</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<sourcePk>654618BA-9933-2F5D-7014-EED24682FD47</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CF832AD3-BADA-22A6-3516-00451FF39063</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FC6266DF-833B-5005-9BFC-B61FA3A58125</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

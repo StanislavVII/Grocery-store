@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CA78D283-926D-9CBB-A7BD-4B0E106CEC6A" name="Sold">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-30 22:59:51 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SaleID" id="3634FF50-CD3C-0C67-0972-F44877E70726">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-30 23:02:36 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ProductID" id="F4660B0F-B0A4-9C5B-9BB2-5445B6E864D8">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-30 23:02:36 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B7F15C44-E38E-B926-8119-263E4878FA96" referredColumn="04477212-210F-021B-69C6-159E1B59549C"/>
+</associations>
+</Column>
+<Column name="SQuantity" id="207176D5-7186-E7EF-4ADB-D9A81141324A">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-30 23:02:36 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02D3869C-013D-229A-CB62-03C363FC8E6D" name="Sold_PK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-30 23:02:36 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3634FF50-CD3C-0C67-0972-F44877E70726"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="45F88AE6-58CD-12F1-457B-2F67017FA109" name="Sold_Product_FK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-30 23:03:36 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4660B0F-B0A4-9C5B-9BB2-5445B6E864D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

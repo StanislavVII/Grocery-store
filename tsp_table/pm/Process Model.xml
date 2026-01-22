@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C1E42301-F192-FD12-75F3-FE9A25023439">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:26:17 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BD194F5A-8D1B-C3EA-2567-BD1626E8DF0B" containerWithKeyObject="AAF1C01C-552A-B710-B7C2-493095E79F12" localFKIndex="E7E438C9-943E-9208-E543-E362E58C60C9" name="Delivery_Company_FK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:54:55 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<referredTableLongName>Company</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>29D7DFF9-8B0E-3B5D-8669-A5CB20544C7C</referredTableID>
+<keyObject>C3026F2A-A899-3EDD-96CC-62E0347C60C7</keyObject>
+<referredKeyID>C3026F2A-A899-3EDD-96CC-62E0347C60C7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CompanyID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

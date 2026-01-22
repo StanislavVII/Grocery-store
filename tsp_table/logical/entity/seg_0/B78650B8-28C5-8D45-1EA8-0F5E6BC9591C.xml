@@ -1,0 +1,118 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B78650B8-28C5-8D45-1EA8-0F5E6BC9591C" name="Delivery">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>AAF1C01C-552A-B710-B7C2-493095E79F12</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DeliveryID" id="A9B8BC3B-C575-3271-DBBD-4562240E7AB0">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>8AD54AC1-522E-DE8B-CC58-454963B87434</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ProductID" id="70AB8739-958F-ABBE-1543-C539E0D9AC9A">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>78560873-6573-E3A0-349F-05FD56F095D8</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<referedAttribute>CD12DD04-1010-69EE-B5B7-9225CB00E681</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CompanyID" id="0772403B-848B-0CDA-4532-33C8489A2C9E">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>4A1D4FB8-6799-5AC4-3330-59EEF5050ACE</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<referedAttribute>E45F1518-AB11-05B5-2441-212E5A626536</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DelNumber" id="EEA69170-8BB9-A380-3278-6D186CA8DF6A">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>07DEAAC0-F434-BCAD-3DB8-49D01C177936</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DelDate" id="2DF98D5D-29A9-C899-5E8F-BE2EAB6F71C1">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>6F2220B8-676C-A44D-ABF0-7BC91A4EAF16</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DelQuantity" id="2365500D-3115-C5AD-B32E-DD82576B9FA4">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>B42BEB6E-A0D1-50BD-5704-B9E0BA11CAD6</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26229D13-D924-5B1C-D25E-8EBCFEC6982F" name="Delivery PK">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:55:26 UTC</createdTime>
+<generatorID>AD421B36-047D-E7AB-3D33-834A6F6669A1</generatorID>
+<ownerDesignName>tsp_table</ownerDesignName>
+<engineerTo>
+<item key="95ACEEE4-D3CC-F2A9-5805-1B1E497ED080" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A9B8BC3B-C575-3271-DBBD-4562240E7AB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

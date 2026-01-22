@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DAD58868-1764-9FB1-AA18-786FC16C73D5" mainViewID="B4046402-CB07-7BCA-EFEF-661792BB7FDD">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:26:16 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

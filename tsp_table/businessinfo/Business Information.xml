@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="57582291-DBBF-7C67-2007-77CF20E6CCE4">
+<createdBy>Slavi</createdBy>
+<createdTime>2022-05-16 18:26:17 UTC</createdTime>
+<ownerDesignName>tsp_table</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
